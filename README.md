@@ -16,7 +16,7 @@
 
 - Install Virtual box and Vagrant using the default installation options.
 - Download the supplied VM Configuration - FSND-Virtual-Machine.zip.
-- Use a Unix-style terminal, Git Bash is recommended.
+- Use a Unix-style terminal.
 - Bring Vagrant online by executing the following commands.
 - vagrant up
 - vagrant ssh
