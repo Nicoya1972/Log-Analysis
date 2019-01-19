@@ -5,7 +5,7 @@
 - Sam Teach Yourself SQL
 - Python Crash Course
 
-- Online Resources.
+# Online Resources.
 - Udacity Forums
 - StackOverflow
 - Udemy Pyhton course
@@ -15,9 +15,9 @@
 # Configuration
 
 - Install Virtual box and Vagrant using the default installation options.
-1 Download the supplied VM Configuration - FSND-Virtual-Machine.zip.
-2 Use a Unix-style terminal, Git Bash is recommended.
-3 Bring Vagrant online by executing the following commands.
+- Download the supplied VM Configuration - FSND-Virtual-Machine.zip.
+- Use a Unix-style terminal, Git Bash is recommended.
+- Bring Vagrant online by executing the following commands.
 - vagrant up
 - vagrant ssh
 - /vagrant
