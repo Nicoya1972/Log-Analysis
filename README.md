@@ -7,7 +7,12 @@
 
 # Online Resources.
 - Udacity Forums
-- StackOverflow
+- Udacity Instructor feedback
+
+# StackOverflow
+-line too long:
+https://stackoverflow.com/questions/53162/how-can-i-do-a-line-break-line-continuation-in-python
+- http://pep8online.com/checkresult
 - Udemy Pyhton course
 
 
