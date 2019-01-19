@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 import psycopg2
 
 DBNAME = "news"
@@ -24,8 +26,8 @@ def popular_articles():
     top_three = queries(query)
     print('Most popular articles of all time are:')
     for record in top_three:
-        print('\t' + '"' + str(record[0]) + '"' + ' --- '
-              + str(record[1]) + ' views')
+        print('\t' + '"' + str(record[0]) + '"' + ' --- ' +
+              str(record[1]) + ' views')
 
 
 def most_popular_author():
@@ -39,8 +41,7 @@ def most_popular_author():
     most_popular = queries(query)
     print('Most popular article authors of all time are')
     for record in most_popular:
-        print('\t' + str(record[0]) + ' --- '
-              + str(record[1]) + ' views')
+        print('\t' + str(record[0]) + ' --- ' + str(record[1]) + ' views')
 
 
 def down_time():
@@ -53,11 +54,11 @@ def down_time():
     error_times = queries(query)
     print('On which days did more than 1% of requests lead to errors?')
     for record in error_times:
-        print('\t' + str(record[0]) + ' with '
-              + str(record[1]) + '% errors')
+        print('\t' + str(record[0]) + ' with ' + str(record[1]) + '% errors')
 
 
 if __name__ == "__main__":
     popular_articles()
     most_popular_author()
     down_time()
+
